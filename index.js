@@ -6,6 +6,6 @@ const getWeather = async () => {
     console.log('response', response)
     const data = await response.json()
     const { main } = data
-    console.log(`La temperatura en ${ciudad} es de ${main.temp}`)
+    console.log(`La temperatura en ${ciudad} es de ${main.temp}ºK`)
   
   }
